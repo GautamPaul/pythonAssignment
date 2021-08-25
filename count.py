@@ -6,5 +6,5 @@ for i in text:
         letters += 1
     elif (i >= '0' and i <= '9'):
         digits += 1
-print("LETTERS", letters)
-print("DIGITS", digits)
+print("Letters:", letters)
+print("Digits:", digits)

@@ -1,7 +1,7 @@
 import re
 import math
-numbersString = input("Enter comma seperated numbers: ")
-numbers = re.split(", |,", numbersString)
+number_string = input("Enter comma seperated numbers: ")
+numbers = re.split(", |,", number_string)
 C = 50
 H = 30
 for D in numbers:

@@ -1,9 +1,9 @@
 from typing import Counter
 
-inputStr = input()
-words = inputStr.split()
+input_string = input()
+words = input_string.split()
 words.sort()
-wordCount = dict(Counter(words))
+word_count = dict(Counter(words))
 
-for word in wordCount:
-    print("{}:{}".format(word, wordCount[word]))
+for word in word_count:
+    print("{}:{}".format(word, word_count[word]))
